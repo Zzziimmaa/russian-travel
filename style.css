@@ -21,6 +21,7 @@ body {
     
 }
 
+
 .header {
   max-width: 1184px;
   display: flex;
@@ -86,7 +87,8 @@ body {
   line-height: 1.2;
   color: #FFFFFF;
   margin: auto;
-  width: 55%;
+  max-width: 720px;
+  text-align: center;
 
 }
 
@@ -193,30 +195,31 @@ body {
 }
 
 .place {
-    max-width: 984px;
-    max-height: 660px;
-    display: grid;
-    grid-template-columns: 460px 1fr;
-    grid-template-rows: 152px 1fr ;
-    gap: 48px 40px;
-    margin-bottom: 80px;
+  max-width: 984px;
+  max-height: 660px;
+  display: grid;
+  grid-template-columns: 460px 1fr;
+  grid-template-rows: 152px 1fr ;
+  gap: 48px 40px;
+  margin-bottom: 80px;
 }
-.place:last-child{
+
+.place:last-child
+{
   margin: 0px;
 }
 
 .place__title {
-    
-    max-width: 460px;
-    height: auto;
-    font-style: normal;
-    font-weight: 900;
-    font-size: 72px;
-    line-height: 76px;
-    color: #FFFFFF;
-    margin: 0px;
-    text-align: start;
-    align-self: end;
+  max-width: 460px;
+  height: auto;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 72px;
+  line-height: 76px;
+  color: #FFFFFF;
+  margin: 0px;
+  text-align: start;
+  align-self: end;
 
 }
 
@@ -227,41 +230,38 @@ body {
 }
 
 .place__website {
-   
-    width: 100%;
-    align-self: end;
+  width: 100%;
+  align-self: end;
 
 }
 
 .place__url-heading {
-   
-    font-weight: normal;
-    font-size: 12px;
-    line-height: 12px;
-    color: #AAAAAA;
-    margin: 0px;
-    margin-bottom: 12px;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 12px;
+  color: #AAAAAA;
+  margin: 0px;
+  margin-bottom: 12px;
 }
 
 .place__link {
-    color: #FFFFFF;
+  color: #FFFFFF;
     
 }
 
 
 .place__paragraph {
-    max-width: 484px;
-    height: auto;
-    font-weight: normal;
-    font-size: 18px;
-    line-height: 1.2;
-    color: #FFFFFF;
-    margin: 0px;
-    margin-bottom: 26px;
+  max-width: 484px;
+  height: auto;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 1.2;
+  color: #FFFFFF;
+  margin: 0px;
+  margin-bottom: 26px;
 }
 
-.cover{
-  border: 1px solid red;
+.cover {
   max-width: 1184px;
   height: 740px;
   display: flex;
@@ -271,43 +271,95 @@ body {
   flex-direction: column;
   background-image: url(./image/cover-trains.jpg);
   background-repeat: no-repeat;
-  background-size: 100%;
+  background-size: cover;
 
 }
 
-.cover__title{
-  border: 1px solid red;
- max-width: 560px;
-height: 152px;
-left: 360px;
-top: 6246px;
-font-style: normal;
-font-weight: 900;
-font-size: 72px;
-line-height: 76px;
-text-align: center;
-margin: 0px;
-    margin-bottom: 32px;
-color: #FFFFFF;
+.cover__title {
+  max-width: 560px;
+  height: 152px;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 72px;
+  line-height: 1.2;
+  text-align: center;
+  margin: 0px;
+  margin-bottom: 32px;
+  z-index: 3;
+  color: #FFFFFF;
 
 
 
 }
 
-.cover__subtitle{
-border: 1px solid red;
-max-width: 360px;
-height: 66px;
-left: 460px;
-top: 6430px;
-font-style: normal;
-font-weight: normal;
-font-size: 18px;
-line-height: 22px;
-text-align: center;
-margin: 0px;
+.cover__subtitle {
+  max-width: 360px;
+  height: 66px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 1.2;
+  text-align: center;
+  margin: 0px;
+  z-index: 3;
+  color: #FFFFFF;
 
-color: #FFFFFF;
+}
+.cover__overlay {
+  position: absolute;
+    width: 1184px;
+    height: 740px;
+  }
+
+.cover::before {
+  content:"";
+  display: block;
+  height: 740px;
+  position: absolute;
+  width: 100%;
+  background: #2A2C2F;
+  opacity: 0.3;
+
+}
+
+.footer {
+ max-width: 1184px;
+  height: 18px;
+  margin: 92px auto  24px;
+  display: flex;
+  justify-content: space-between;
+
+}
+.footer_links {
+  display: flex;
+  margin: 0px;
+  list-style: none;
+  padding: 0px;
+
+
+}
+
+.footer__link {
+  width: 50px;
+  height: 18px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 18px;
+  color: #FFFFFF;
+  margin-right: 18px;
+  text-decoration: none;
+  
+
+
+}
+.footer__copyright {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.2;
+  color: #FFFFFF;
+  margin: 0px;
 
 }
 
