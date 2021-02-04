@@ -6,7 +6,11 @@
   font-weight: normal;
   font-size: 24px;
   line-height: 117%;
-  
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 117%;
+  text-decoration-line: underline;
+  padding-left: 18px;
 }
 
 @media screen and (max-width:320px) {
