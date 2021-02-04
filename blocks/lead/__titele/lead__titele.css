@@ -1,0 +1,27 @@
+.lead__titele {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 96px;
+  line-height: 1.2;
+  color: #FFFFFF;
+  margin: auto;
+  max-width: 720px;
+  text-align: center;
+  
+}
+  
+@media screen and (max-width:690px) {
+  .lead__titele {
+     font-size: 60px;
+
+}
+}
+  
+@media screen and (max-width:320px) {
+  .lead__titele {
+    font-size: 40px;
+    
+}
+}
+  

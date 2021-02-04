@@ -1,0 +1,15 @@
+.heder__lang-link_language_en {
+  width: 29px;
+  text-decoration: none;
+  margin-left: 18px;
+  
+}
+
+@media screen and (max-width:320px) {
+  .heder__lang-link_language_en {
+    width: 22px;
+    height: 20px;
+    
+}
+}
+  

@@ -1,0 +1,12 @@
+.place__titles {
+  align-self: end;
+
+}
+
+@media screen and (max-width:320px) {
+  .place__titles {
+    width: 288px;
+    margin: 0px auto;
+  
+}
+}
