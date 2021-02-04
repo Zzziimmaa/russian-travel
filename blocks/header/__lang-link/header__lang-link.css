@@ -1,4 +1,4 @@
-.heder__lang-link {
+.header__lang-link {
   color: #FFF;
   height: 28px;
   width: 30px;
@@ -11,7 +11,7 @@
 }
 
 @media screen and (max-width:320px) {
-  .heder__lang-link {
+  .header__lang-link {
     font-size: 18px;
     line-height: 20px;
 
