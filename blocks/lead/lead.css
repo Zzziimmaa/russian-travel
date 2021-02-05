@@ -1,9 +1,8 @@
-.lead {   
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  margin: 56px auto 0px;
-  text-align: center;
-  align-items: center;
-  
+.lead {
+    max-width: 984px;
+    display: flex;
+    flex-direction: column;
+    margin: 56px auto 0px;
+    text-align: center;
+    align-items: center;
 }
