@@ -12,7 +12,7 @@
 
 **Сайт**
 
-* [Ссылка на макет на сайт](https://zzziimmaa.github.io/russian-travel/)
+* [Ссылка на сайт](https://zzziimmaa.github.io/russian-travel/)
 
 **Технологии**
 
