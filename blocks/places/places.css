@@ -17,3 +17,15 @@
         max-width: 720px;
     }
 }
+
+@media screen and (max-width:555px) {
+    .places {
+        padding-left: 22px;
+    }
+}
+
+@media screen and (max-width:380px) {
+    .places {
+        padding: 0px;
+    }
+}
