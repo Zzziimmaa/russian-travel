@@ -1,9 +1,15 @@
 .lead {
     font-family: 'Inter', Arial, sans-serif;
-    max-width: 928px;
+    max-width: 984px;
     display: flex;
     flex-direction: column;
     margin: 56px auto 0px;
     text-align: center;
     align-items: center;
+}
+
+@media screen and (max-width:1024px) {
+    .lead {
+        max-width: 928px;
+    }
 }
